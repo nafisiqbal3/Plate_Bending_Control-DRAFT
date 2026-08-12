@@ -15,7 +15,7 @@ title: "Feedforward-Feedback Control Methodology for Low-Volume Precision Plate 
 version: "1.0.0"
 doi: "10.5281/zenodo.XXXXXXX" # Replace with your Zenodo DOI
 date-released: 2026-08-12
-url: "https://github.com/nafisiqbal3/Plate_Bending_Control_code_and_data/"
+url: "https://github.com/nafisiqbal3/Plate_Bending_Control/"
 preferred-citation:
   type: article
   authors:
