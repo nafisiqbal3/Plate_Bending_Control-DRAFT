@@ -1,6 +1,6 @@
 # Introduction
 
-This repository is associated with the paper **"Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending"**, authored by A, B, C, D, and E.
+This repository is associated with the paper **"Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending"**, authored by Partho Kundu, Nafis Iqbal, Zongze Li, Balark Tiwari and Robert G. Landers.
 
 The repository contains the experimental data, MATLAB implementation of the process simulation model, and real-time C++ code implementing the image-processing and process-control algorithms presented in the paper.
 
