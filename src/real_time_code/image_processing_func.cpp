@@ -30,7 +30,7 @@ bool processBendingAngle(const cv::Mat& inputFrame,
     try {
         // --- 1. Initial Baseline Angle Calibration (Loop 15) ---
         if (loopCounter == 15) {
-            cv::Rect cropRectInitial(79, 65, 252, 442);
+            cv::Rect cropRectInitial(50, 200, 250, 320);
             cv::Rect imgBounds(0, 0, inputFrame.cols, inputFrame.rows);
             cv::Rect safeInitial = cropRectInitial & imgBounds;
 
