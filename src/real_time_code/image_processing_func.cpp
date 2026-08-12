@@ -16,7 +16,7 @@ using namespace cv;
  * @param[in]  debugMode     Optional flag to display OpenCV debug visualization windows.
  * @return true if processing succeeded, false if frame was invalid or points could not be fit.
  */
-bool processBendingAngle(const cv::Mat& inputFrame, 
+bool image_processor(const cv::Mat& inputFrame, 
                          int loopCounter, 
                          double& ioAngleInitial, 
                          double& outBendAngle,
