@@ -1,4 +1,4 @@
-# Overview
+## Overview
 
 This repository is associated with the paper **"Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending"**, authored by Partho Kundu, Nafis Iqbal, Zongze Li, Balark Tiwari and Robert G. Landers.
 
@@ -16,9 +16,7 @@ The `data` directory contains the relevant data that have been used to generate 
 
 Each directory contains its own *README* file that further explains the usage of the code and data.
 
----
-
-## Repository Structure
+# Repository Structure
 
 The repository is organized as follows:
 
