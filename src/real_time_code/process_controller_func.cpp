@@ -21,8 +21,6 @@ struct ActuatorHandoff {
     MotionCommandType command_type = MotionCommandType::NONE;
     double mm_increment_z = 0.0;   // Displacement command for Z-axis (mm)
     double feed_rate = 0.0;        // Target velocity / feed rate (mm/s)
-    bool override_motion = false;  // Flag to override ongoing motion trajectory
-    bool interrupt_motion = false; // Flag to halt ongoing motor step immediately
 };
 
 // Persistent state structure maintained across control loop iterations
