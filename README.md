@@ -15,3 +15,31 @@ The real-time C++ implementation of the process-control algorithm is provided in
 The `data` directory contains the relevant data that have been used to generate the figures in the paper. 
 
 Each directory contains its own *README* file that further explains the usage of the code and data.
+
+---
+
+## Repository Structure
+
+The repository is organized as follows:
+
+```text
+.
+├── data/
+│   ├── ...
+│   └── README.md
+│
+├── src/
+│   ├── simulation/
+│   │   ├── ...
+│   │   └── README.md
+│   │
+│   ├── image_processing/
+│   │   ├── ...
+│   │   └── README.md
+│   │
+│   └── process_controller/
+│       ├── ...
+│       └── README.md
+│
+├── LICENSE
+└── README.md
