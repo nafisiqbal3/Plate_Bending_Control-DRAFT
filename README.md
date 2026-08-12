@@ -16,11 +16,11 @@ The repository contains the experimental data, MATLAB implementation of the proc
 └── README.md      
 ```
 
-The study proposes a feedforward-feedback control methodology for efficiently and accurately bending a metal plate. The proposed process model is first used to simulate the bending process, and the corresponding MATLAB implementation is provided in the `src/simulation` directory. There is also a `README_simulation.md` file that explains how to use that code.
+The study proposes a feedforward-feedback control methodology for efficiently and accurately bending a metal plate. The proposed process model is first used to simulate the bending process, and the corresponding MATLAB implementation is provided in the `src/simulation` directory. 
 
-The process model and control strategy proposed in the paper is then validated by experiments. The experimental setup used in this study comprises a servo motor-driven three-axis motion-control system, with feedbacks coming from the servo encoders, a visual camera and a force sensor. The system is operated by a multithreaded, real-time C++ application. *This repository does **not** contain the complete code that runs the motion and sensory system in real-time, as that would make the repository hardware specific.* Only the image processing code and the process controlling code are included in `src/real_time_code/` directory. There is an accompanying `README_real_time.md` file that explains how those real-time C++ codes can be used.
+The process model and control strategy proposed in the paper is then validated by experiments. The experimental setup used in this study comprises a servo motor-driven three-axis motion-control system, with feedbacks coming from the servo encoders, a visual camera and a force sensor. The system is operated by a multithreaded, real-time C++ application. *This repository does **not** contain the complete code that runs the motion and sensory system in real-time, as that would make the repository hardware specific.* Only the image processing code and the process controlling code are included in `src/real_time_code/` directory. 
 
-The `data/` directory contains the relevant experimental data that have been used to generate the Figure 9-22 in the paper. Each figure has its own subfolder that contains `.csv` files with relevant data from the sensors or simulation results. The accompanying `README.md` files can be instructive.
+The `data/` directory contains the relevant experimental data that have been used to generate the Figure 9-22 in the paper. Each figure has its own subfolder that contains `.csv` files with relevant data from the sensors or simulation results. 
 
 ## Prerequisites
 The simulation code only requires MATLAB and accompanying data to be run.
