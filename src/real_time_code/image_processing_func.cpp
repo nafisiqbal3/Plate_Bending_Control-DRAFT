@@ -3,6 +3,9 @@
 #include <vector>
 #include <cmath>
 
+#include "Geometric_S1_and_theta_1_calculation.h"
+#include "Displacement_from_Unloaded_Angle.h"
+
 /**
  * @brief Core image-processing function for plate bending angle estimation.
  * 
