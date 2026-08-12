@@ -24,22 +24,10 @@ The repository is organized as follows:
 
 ```text
 .
-├── data/
-│   ├── ...
-│   └── README.md
-│
-├── src/
-│   ├── simulation/
-│   │   ├── ...
-│   │   └── README.md
-│   │
-│   ├── image_processing/
-│   │   ├── ...
-│   │   └── README.md
-│   │
-│   └── process_controller/
-│       ├── ...
-│       └── README.md
-│
-├── LICENSE
-└── README.md
+├── data/                   # Dataset for Figures 9-22 in the Paper
+├── src/                    
+│   ├── simulation/         # Process model and simulation (MATLAB)
+│   ├── image_processing/   # Real-time image processing algorithm (C++)
+│   └── process_controller/ # Real-time process control algorithm (C++)
+├── LICENSE                 
+└── README.md              
