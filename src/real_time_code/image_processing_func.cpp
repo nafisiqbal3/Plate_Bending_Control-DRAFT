@@ -3,6 +3,8 @@
 #include <vector>
 #include <cmath>
 
+using namespace cv;
+
 /**
  * @brief Core image-processing function for plate bending angle estimation.
  * 
