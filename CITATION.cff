@@ -13,7 +13,7 @@ authors:
     given-names: "Robert G."
 title: "Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending - Code and Experimental Data"
 version: "1.0.0"
-doi: "10.5281/zenodo.XXXXXXX" # Replace with your Zenodo DOI
+doi: "10.5281/zenodo.XXXXXXX"
 date-released: 2026-08-12
 url: "https://github.com/nafisiqbal3/Plate_Bending_Control/"
 preferred-citation:
