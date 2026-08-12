@@ -11,3 +11,7 @@ The study proposes a feedforward-feedback control methodology for efficiently an
 The experimental system is then used to validate the proposed model and control methodology. The real-time C++ image-processing code in the `src/image_processing` directory processes raw camera images to determine the bending angle of the plate. The calculated bending angle is subsequently provided as feedback to the process-control algorithm.
 
 The real-time C++ implementation of the process-control algorithm is provided in the `src/process_controller` directory. The controller uses the measured bending angle and force-sensor feedback to identify the relevant process parameters and calculate the feedforward control action based on the proposed model. A feedback control action is also implemented to compensate for modeling and process uncertainties and achieve the desired bending angle with high precision.
+
+The `data` directory contains the relevant data that have been used to generate the figures in the paper. 
+
+Each directory contains its own *README* file that further explains the usage of the code and data.
