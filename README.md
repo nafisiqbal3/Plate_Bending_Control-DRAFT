@@ -42,4 +42,5 @@ If you use this code, dataset, or methodology in your research, please cite our 
   doi={10.5281/zenodo.XXXXXXX}
 }
 ```
-        
+## License
+This project is open-source and available under the MIT License.
