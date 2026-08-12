@@ -3,6 +3,12 @@
 #include <cmath>
 #include <algorithm>
 
+
+#include "Geometric_S1_and_theta_1_calculation.h"
+#include "Displacement_from_Unloaded_Angle.h"
+
+using namespace springback_model;
+
 // Command type returned to the low-level motor hardware
 enum class MotionCommandType {
     NONE,           // No action required
