@@ -93,16 +93,17 @@ ActuatorHandoff process_controller(double bendAngle,
 
     // Constants & process parameters
     const float v = 5.0f;
-    const float angle_tolerance = 0.1f;
-    const float force_tolerance = 1.5f;
-    const float t = 1.6f;
-    const float w = 25.4f * 2.0f;
-    const float distance = 52.0f;
-    const float model_correction_factor = 0.95f;
-    
-    const int state2_initial_skip_N = 10;
-    const int state2_slope_step_N = 8;
-    const double state2_slope_dev_threshold = 0.015; // 1.5% slope deviation for yield
+    const float angle_tolerance = 0.1f;               //Change accordingly
+    const float force_tolerance = 1.5f;               //Change accordingly
+    const float t = 1.6f;                             //Change accordingly
+    const float w = 25.4f * 2.0f;                     //Change accordingly
+    const float distance = 52.0f;                     //Change accrodingly
+    const float model_correction_factor = 0.95f;      //Change accordingly
+
+    // The initial skipping is added due to eliminate the early noise during punching and determining the model parameters
+    const int state2_initial_skip_N = 10;             //Change accordingly
+    const int state2_slope_step_N = 8;                //Change accordingly
+    const double state2_slope_dev_threshold = 0.015;  // 1.5% slope deviation for yield, change accordingly
 
     switch (ctrlState.state) {
 
