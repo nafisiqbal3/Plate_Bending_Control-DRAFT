@@ -9,8 +9,8 @@ The repository contains the experimental data, MATLAB implementation of the proc
 .
 ├── data/                   # Dataset for Figures 9-22 in the Paper
 ├── src/                    
-│   ├── simulation/         # Process model and simulation (MATLAB)
-│   └── real_time_code/     # Real-time image processing and process control algorithm (C++)
+│   ├── real_time_code/     # Real-time image processing and process control algorithm (C++)
+│   └── simulation/         # Process model and simulation (MATLAB)
 ├── CITATION.cff
 ├── LICENSE                 
 └── README.md      
