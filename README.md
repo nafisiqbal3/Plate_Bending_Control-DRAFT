@@ -29,5 +29,6 @@ The repository is organized as follows:
 │   ├── simulation/         # Process model and simulation (MATLAB)
 │   ├── image_processing/   # Real-time image processing algorithm (C++)
 │   └── process_controller/ # Real-time process control algorithm (C++)
+├── CITATION.cff
 ├── LICENSE                 
 └── README.md              
