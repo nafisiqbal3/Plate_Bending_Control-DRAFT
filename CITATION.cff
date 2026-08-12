@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or data in your work, please cite it as below."
+authors:
+  - family-names: "Kundu"
+    given-names: "Partho"
+  - family-names: "Iqbal"
+    given-names: "Nafis"
+  - family-names: "Li"
+    given-names: "Zongze"
+  - family-names: "Tiwari"
+    given-names: "Balark"
+  - family-names: "Landers"
+    given-names: "Robert G."
+title: "Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending - Code and Experimental Data"
+version: "1.0.0"
+doi: "10.5281/zenodo.XXXXXXX" # Replace with your Zenodo DOI
+date-released: 2026-08-12
+url: "https://github.com/nafisiqbal3/Plate_Bending_Control_code_and_data/"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Kundu"
+      given-names: "Partho"
+    - family-names: "Iqbal"
+      given-names: "Nafis"
+    - family-names: "Li"
+      given-names: "Zongze"
+    - family-names: "Tiwari"
+      given-names: "Balark"
+    - family-names: "Landers"
+      given-names: "Robert G."
+  title: "Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending"
+  journal: "Integrating Materials and Manufacturing Innovation"
+  year: 2026
