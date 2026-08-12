@@ -3,7 +3,7 @@
 #include <cmath>
 #include <algorithm>
 
-
+//The header files that constains the geometric and mechanical model of the process 
 #include "Geometric_S1_and_theta_1_calculation.h"
 #include "Displacement_from_Unloaded_Angle.h"
 
