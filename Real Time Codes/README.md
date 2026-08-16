@@ -35,7 +35,7 @@ There are two parallel sets of process-model headers:
 
 ## Prerequisites
 
-- C++17 (or later) compiler
+- C++20 (or later) compiler
 - [OpenCV](https://opencv.org/) (for `image_processing_func.cpp`)
 - No external dependencies for the four `springback_model` headers beyond the standard library
 
