@@ -3,9 +3,16 @@
 #include <cmath>
 #include <algorithm>
 
-//The header files that constains the geometric and mechanical model of the process 
+// -------- Header file constainign feedforward model -------
+//The header files that constains the geometric and mechanical model of the process during the "bending" process
 #include "Geometric_S1_and_theta_1_calculation.h"
 #include "Displacement_from_Unloaded_Angle.h"
+
+//The header files that constains the geometric and mechanical model of the process during the "unbending" process
+#include "Geometric_S1_and_theta_1_calculation_unbending.h"
+#include "Displacement_from_Unloaded_Angle_unbending.h"
+
+// -------- Use any ONE of the two sets of header files accordning to the type of experiment -------
 
 using namespace springback_model;
 
