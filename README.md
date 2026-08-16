@@ -25,10 +25,9 @@ The `data/` directory contains the relevant experimental data that have been use
 ## Prerequisites
 The simulation code only requires MATLAB and accompanying data to be run.
 
-However, the real-time codes are written in C++ and they are only part of a larger multi-threaded real-time program. The code can not be used independently of a closed-loop control system that has a real-time position controlled ram press, a force sensor on the ram, and a visual camera that feeds the control algorithm with real-time data. The program that runs the system should be real-time constrained, better be multi-threaded. We have used a Linux Ubuntu 22.04-based system with `PREEMPT-RT` patch. The additional C++ libraries are:
-1. OpenCV: For image processing.
-2.
+However, the real-time codes are written in C++ and they are only part of a larger multi-threaded real-time program. The code can not be used independently of a closed-loop control system that has a real-time position controlled ram press, a force sensor on the ram, and a visual camera that feeds the control algorithm with real-time data. The program that runs the system should be real-time constrained, better be multi-threaded. We have used a Linux Ubuntu 22.04-based system with `PREEMPT-RT` patch. 
 
+The real time image processing thread requires the OpenCV library in C++, and we recommend using a C++20 compatible compiler.
 
 ## Citation
 If you use this code, dataset, or methodology in your research, please cite our paper:
@@ -39,7 +38,6 @@ If you use this code, dataset, or methodology in your research, please cite our 
   author={Kundu, Partho and Iqbal, Nafis and Li, Zongze and Tiwari, Balark and Landers, Robert G.},
   journal={Integrating Materials and Manufacturing Innovation},
   year={2026},
-  doi={10.5281/zenodo.XXXXXXX}
 }
 ```
 ## License
